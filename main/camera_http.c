@@ -25,8 +25,9 @@
 #include <sys/param.h>
 #include "esp_err.h"
 #include "esp_log.h"
-#include <esp_https_server.h>
-#include "wifi_driver.h"
+#include "esp_timer.h"
+#include "esp_http_server.h"
+// #include "wifi_driver.h"
 #include "esp_camera.h"
 
 static char TAG[] = "Camera http";

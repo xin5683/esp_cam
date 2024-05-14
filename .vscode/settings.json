@@ -8,6 +8,9 @@
     "idf.flashBaudRate": "115200",
     "files.associations": {
         "nvs_flash.h": "c",
-        "esp_system.h": "c"
+        "esp_system.h": "c",
+        "esp_https_server.h": "c",
+        "esp_camera.h": "c",
+        "esp_log.h": "c"
     }
 }
